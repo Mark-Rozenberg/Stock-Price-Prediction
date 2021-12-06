@@ -1,9 +1,9 @@
 # Stock-Price-Prediction
 
-## **Project Name**
+### **Project Name** //
 Prediction of AugWind company stock price using search data from google trends and different Python time series forecasting techniques
 
-**Data Origin**
+### **Data Origin** //
 This project based on a dataset combined from two sources:
 Google trends
 Tel-Aviv stock exchange site
