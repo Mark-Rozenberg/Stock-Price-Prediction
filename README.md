@@ -9,8 +9,8 @@ This project based on a dataset combined from two sources:
   2. Tel-Aviv stock exchange site
 
 ### **Data Description**
-The data is relevant from 11/5/2020 up to 12/2/2021, a bit more than a year. The time frequency is daily.
-__Variables:
+The data is relevant from 11/5/2020 up to 12/2/2021, a bit more than a year. The time frequency is daily.\
+Variables:
 'Date' - format mm/dd/yyyy__
 'Aug_Price' - AugWind (1105907) stock price in new israeli shekels (0.01 NIS) 
 'Aug_Volume' - AugWind stock daily turnover (NIS Thousands)
