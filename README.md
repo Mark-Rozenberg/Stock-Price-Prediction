@@ -11,13 +11,13 @@ This project based on a dataset combined from two sources:
 ### **Data Description**
 The data is relevant from 11/5/2020 up to 12/2/2021, a bit more than a year. The time frequency is daily.
 Variables:
-Date - format mm/dd/yyyy
-Aug_Price - AugWind (1105907) stock price in new israeli shekels (0.01 NIS) 
-Aug_Volume - AugWind stock daily turnover (NIS Thousands)
-Search - search interest rate (search word= ‘אוגווינד’, AugWind in hebrew, search region = Israel, web search only)
+'Date' - format mm/dd/yyyy__
+'Aug_Price' - AugWind (1105907) stock price in new israeli shekels (0.01 NIS) 
+'Aug_Volume' - AugWind stock daily turnover (NIS Thousands)
+'Search' - search interest rate (search word= ‘אוגווינד’, AugWind in hebrew, search region = Israel, web search only)
 Note: the data presented by google is with weekly frequency
-CleanTec_Price - Tel-Aviv clean Tech Index (184) in points
-CleanTec_Volume - Tel-Aviv clean Tech Index daily turnover (NIS Thousands)
+'CleanTec_Price' - Tel-Aviv clean Tech Index (184) in points
+'CleanTec_Volume' - Tel-Aviv clean Tech Index daily turnover (NIS Thousands)
 
 ### **Analysis Description**
 Step 1 – data preparation: set date indexes. Fill empty cells using the pandas ffill method. Due to the fact that the search variable is with weekly frequency the method is necessary. 
