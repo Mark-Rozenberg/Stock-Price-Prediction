@@ -30,6 +30,7 @@ Step 3 – fitting 5 different model for prediction:
   3. ARIMA (SARIMAX), without features
   4. ARIMA (SARIMAX), with features
   5. LSTM - PyTorch\
+
 Note: the data was splitted to train up to the 11/1/2021 and test from 11/2/2021
 
 Step 4 – comparing the prediction results using common metrics and graphical representation
