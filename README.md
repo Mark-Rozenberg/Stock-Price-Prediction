@@ -20,7 +20,7 @@ Note: the data presented by google is with weekly frequency\
 'CleanTec_Volume' - Tel-Aviv clean Tech Index daily turnover (NIS Thousands)\
 
 ### **Analysis Description**
-Step 1 – data preparation: set date indexes. Fill empty cells using the pandas ffill method. Due to the fact that the search variable is with weekly frequency the method is necessary. 
+Step 1 – data preparation: set date indexes. Fill empty cells using the pandas ffill method. Due to the fact that the 'Search' variable is with weekly frequency the method is necessary. 
 
 Step 2 – simple data exploration using a correlation matrix between all the variables to find strongly correlated variables. Graphical exploration of trend and seasonality components of AugWind stock price.
 
